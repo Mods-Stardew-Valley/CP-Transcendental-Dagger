@@ -5,7 +5,7 @@
    "MinimumApiVersion": "4.1.0", 
    "Description": "Daggers that evolve in power.",
    "UniqueID": "LoganDoidao.TrancendentalDagger",
-   "UpdateKeys": [ "GitHub:Mods-Stardew-Valley/Gifts-from-Friends-Compilation",
+   "UpdateKeys": [ "GitHub:Mods-Stardew-Valley/CP-Transcendental-Dagger",
     "Nexus:46264" ], 
    "ContentPackFor": {
        "UniqueID": "Pathoschild.ContentPatcher"
