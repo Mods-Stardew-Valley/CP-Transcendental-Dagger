@@ -3,6 +3,22 @@
 Todas as mudanças importantes deste projeto serão documentadas neste arquivo.
 
 
+## v0.1.0 - 2026-08-18
+
+
+
+### 🏗 Build
+
+
+- Bump version
+
+
+### 📚 Documentação
+
+
+- atualiza CHANGELOG.md [skip ci]
+
+
 ## v0.0.0 - 2026-08-18
 
 
