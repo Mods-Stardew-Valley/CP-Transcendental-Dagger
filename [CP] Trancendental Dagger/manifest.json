@@ -1,13 +1,12 @@
-    //Trocar MODNAME
-    //Remover comentario do UpdateKeys e trocar pelo numero correto no nexus
 {
    "Name": "[CP] Trancendental Dagger",
    "Author": "LoganDoidao",
-   "Version": "1.0.0",
+   "Version": "0.0.0",
    "MinimumApiVersion": "4.1.0", 
-   "Description": "ESCREVER UMA BREVE DESCRICAO",
+   "Description": "Daggers that evolve in power.",
    "UniqueID": "LoganDoidao.TrancendentalDagger",
-   //"UpdateKeys": [ "Nexus:?????" ], 
+   "UpdateKeys": [ "GitHub:Mods-Stardew-Valley/Gifts-from-Friends-Compilation",
+    "Nexus:46264" ], 
    "ContentPackFor": {
        "UniqueID": "Pathoschild.ContentPatcher"
        }

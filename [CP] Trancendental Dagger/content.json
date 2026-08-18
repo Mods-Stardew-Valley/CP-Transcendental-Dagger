@@ -1,75 +1,327 @@
-//Content Patcher pode ser usado de diversas formas, mas o mais comum é para modificar dados do jogo:
-//Como receitas de crafting, buffs de comidas, adição de novo conteudo etc.
-//Exemplo de ConfigSchema nao testado mas pronto para uso e com suporte a traducoes
-//Usar When quando for adicionar condicoes de ativacao de um item, por exemplo: 
-//"When": "EnableFeature == true" para ativar o item apenas quando a feature estiver habilitada
 {
-    "Format": "2.8.0",
-   
-    "ConfigSchema": {
-        "EnableFeature": {
-        "AllowValues": "true, false",
-        "Default": "true",
-        "DisplayName": "{{i18n:config.EnableFeature.name}}",
-        "Description": "{{i18n:config.EnableFeature.desc}}"
-            }
-        },
+  "Format": "2.8.0",
 
   "Changes": [
-    //Exemplo com o [CP] Cheating Snacks ja publicado e funcionando na NexusMods
-    {
-      "Action": "EditData",
-      "Target": "Data/Objects",
-      "Fields": {
-        //Fiels Snack
-		"403":
-		{
-          "Buffs": [
-		  {
-			"Duration": -2,
-			"CustomAttributes": {
-				"Luck": 10,
-				"Farming": 10,
-				"Fishing": 10,
-				"Foraging": 10,
-				"Speed": 3,
-				"MaxStamina": 100
-					}
-				}
-			]
-		   
-		},
-	  //Joja Cola
-	   "167": {
-          "Buffs": [
-		  {
-			"Duration": -2,
-			"CustomAttributes": {	
-            "Attack": 10,
-			"Defense": 10,
-			"Speed": 3,
-			"Immunity":10,
-			"Luck": 10,
-			"Combat": 10,
-			"Mining": 10,
-			"MaxStamina": 100,
-			"MagneticRadius": 250
-					}
-				}
-			]
-		}
-	}
+  {
+    "Action": "Load",
+    "Target": "Mods/LoganDoidao.TranscendentalKnife/tk-lv01",
+    "FromFile": "assets/tk-lv01.png"
+  },
+  {
+    "Action": "Load",
+    "Target": "Mods/LoganDoidao.TranscendentalKnife/tk-lv02",
+    "FromFile": "assets/tk-lv02.png"
+  },
+  {
+    "Action": "Load",
+    "Target": "Mods/LoganDoidao.TranscendentalKnife/tk-lv03",
+    "FromFile": "assets/tk-lv03.png"
+  },
+  {
+    "Action": "Load",
+    "Target": "Mods/LoganDoidao.TranscendentalKnife/tk-lv04",
+    "FromFile": "assets/tk-lv04.png"
+  },
+  {
+    "Action": "Load",
+    "Target": "Mods/LoganDoidao.TranscendentalKnife/tk-lv05",
+    "FromFile": "assets/tk-lv05.png"
+  },
+  {
+    "Action": "Load",
+    "Target": "Mods/LoganDoidao.TranscendentalKnife/tk-lv06",
+    "FromFile": "assets/tk-lv06.png"
+  },
+  {
+    "Action": "Load",
+    "Target": "Mods/LoganDoidao.TranscendentalKnife/tk-lv07",
+    "FromFile": "assets/tk-lv07.png"
+  },
+  {
+   "Action": "Load",
+   "Target": "Mods/LoganDoidao.TranscendentalKnife/tk-lv08",
+   "FromFile": "assets/tk-lv08.png"
+  },
+  {
+   "Action": "Load",
+   "Target": "Mods/LoganDoidao.TranscendentalKnife/tk-lv09",
+   "FromFile": "assets/tk-lv09.png"
+  },
+  {
+   "Action": "Load",
+   "Target": "Mods/LoganDoidao.TranscendentalKnife/tk-lv10",
+   "FromFile": "assets/tk-lv10.png"
+  },
+  {
+   "Action": "EditData",
+   "Target": "Data/Weapons",
+   "Entries": {
+     "tk-lv_1": {
+      "Name": "{{i18n:knife.1.name}}",
+      "DisplayName": "{{i18n:knife.1.name}}",
+      "Description": "{{i18n:knife.1.desc}}",
+      "Type": 1,
+      "MinDamage": 2,
+      "MaxDamage": 5,
+      "Knockback": 0.5,
+      "Speed": 1,
+      "Precision": 0,
+      "Defense": 0,
+      "AreaOfEffect": 0,
+      "CritChance": 0.01,
+      "CritPower": 1,
+      "CanBeLostOnDeath": true,
+      "Texture": "Mods/LoganDoidao.TranscendentalKnife/tk-lv01"
+      },
+
+        "tk-lv_2": {
+          "Name": "{{i18n:knife.2.name}}",
+          "DisplayName": "{{i18n:knife.2.name}}",
+          "Description": "{{i18n:knife.2.desc}}",
+
+          "Type": 1,
+
+          "MinDamage": 5,
+          "MaxDamage": 9,
+
+          "Knockback": 0.6,
+          "Speed": 2,
+
+          "Precision": 0,
+          "Defense": 0,
+          "AreaOfEffect": 0,
+
+          "CritChance": 0.02,
+          "CritPower": 2,
+
+          "CanBeLostOnDeath": true,
+
+          "Texture": "Mods/LoganDoidao.TranscendentalKnife/tk-lv02"
+        },
+
+        "tk-lv_3": {
+          "Name": "{{i18n:knife.3.name}}",
+          "DisplayName": "{{i18n:knife.3.name}}",
+          "Description": "{{i18n:knife.3.desc}}",
+
+          "Type": 1,
+
+          "MinDamage": 8,
+          "MaxDamage": 14,
+
+          "Knockback": 0.7,
+          "Speed": 3,
+
+          "Precision": 1,
+          "Defense": 0,
+          "AreaOfEffect": 0,
+
+          "CritChance": 0.03,
+          "CritPower": 2,
+
+          "CanBeLostOnDeath": true,
+
+          "Texture": "Mods/LoganDoidao.TranscendentalKnife/tk-lv03"
+        },
+
+        "tk-lv_4": {
+		  "Name": "{{i18n:knife.4.name}}",
+          "DisplayName": "{{i18n:knife.4.name}}",
+          "Description": "{{i18n:knife.4.desc}}",
+
+          "Type": 1,
+
+          "MinDamage": 12,
+          "MaxDamage": 18,
+
+          "Knockback": 0.8,
+          "Speed": 4,
+
+          "Precision": 1,
+          "Defense": 1,
+          "AreaOfEffect": 0,
+
+          "CritChance": 0.04,
+          "CritPower": 3,
+          "CanBeLostOnDeath": true,
+
+          "Texture": "Mods/LoganDoidao.TranscendentalKnife/tk-lv04"
+        },
+
+        "tk-lv_5": {
+          "Name": "{{i18n:knife.5.name}}",
+          "DisplayName": "{{i18n:knife.5.name}}",
+          "Description": "{{i18n:knife.5.desc}}",
+
+          "Type": 1,
+
+          "MinDamage": 18,
+          "MaxDamage": 26,
+
+          "Knockback": 0.9,
+          "Speed": 5,
+
+          "Precision": 2,
+          "Defense": 1,
+          "AreaOfEffect": 1,
+
+          "CritChance": 0.05,
+          "CritPower": 3,
+          "CanBeLostOnDeath": true,
+
+          "Texture": "Mods/LoganDoidao.TranscendentalKnife/tk-lv05"
+        },
+
+        "tk-lv_6": {
+          "Name": "{{i18n:knife.6.name}}",
+          "DisplayName": "{{i18n:knife.6.name}}",
+          "Description": "{{i18n:knife.6.desc}}",
+
+          "Type": 1,
+
+          "MinDamage": 26,
+          "MaxDamage": 36,
+
+          "Knockback": 0.8,
+          "Speed": 6,
+
+          "Precision": 2,
+          "Defense": 2,
+          "AreaOfEffect": 1,
+
+          "CritChance": 0.06,
+          "CritPower": 4,
+          "CanBeLostOnDeath": true,
+
+          "Texture": "Mods/LoganDoidao.TranscendentalKnife/tk-lv06"
+        },
+
+        "tk-lv_7": {
+			"Name": "{{i18n:knife.7.name}}",
+          "DisplayName": "{{i18n:knife.7.name}}",
+          "Description": "{{i18n:knife.7.desc}}",
+
+          "Type": 1,
+
+          "MinDamage": 35,
+          "MaxDamage": 48,
+
+          "Knockback": 0.7,
+          "Speed": 7,
+
+          "Precision": 3,
+          "Defense": 2,
+          "AreaOfEffect": 1,
+
+          "CritChance": 0.07,
+          "CritPower": 5,
+          "CanBeLostOnDeath": true,
+
+          "Texture": "Mods/LoganDoidao.TranscendentalKnife/tk-lv07"
+        },
+
+        "tk-lv_8": {
+          "Name": "{{i18n:knife.8.name}}",
+          "DisplayName": "{{i18n:knife.8.name}}",
+          "Description": "{{i18n:knife.8.desc}}",
+
+          "Type": 1,
+
+          "MinDamage": 45,
+          "MaxDamage": 65,
+
+          "Knockback": 0.6,
+          "Speed": 8,
+
+          "Precision": 4,
+          "Defense": 3,
+          "AreaOfEffect": 2,
+
+          "CritChance": 0.09,
+          "CritPower": 6,
+          "CanBeLostOnDeath": true,
+
+          "Texture": "Mods/LoganDoidao.TranscendentalKnife/tk-lv08"
+        },
+
+        "tk-lv_9": {
+          "Name": "{{i18n:knife.9.name}}",
+          "DisplayName": "{{i18n:knife.9.name}}",
+          "Description": "{{i18n:knife.9.desc}}",
+
+          "Type": 1,
+
+          "MinDamage": 60,
+          "MaxDamage": 85,
+
+          "Knockback": 0.5,
+          "Speed": 9,
+
+          "Precision": 5,
+          "Defense": 4,
+          "AreaOfEffect": 2,
+
+          "CritChance": 0.11,
+          "CritPower": 7,
+
+          "CanBeLostOnDeath": true,
+
+          "Texture": "Mods/LoganDoidao.TranscendentalKnife/tk-lv09"
+        },
+
+        "tk-lv_10": {
+          "Name": "{{i18n:knife.10.name}}",
+          "DisplayName": "{{i18n:knife.10.name}}",
+          "Description": "{{i18n:knife.10.desc}}",
+
+          "Type": 1,
+
+          "MinDamage": 85,
+          "MaxDamage": 120,
+
+          "Knockback": 0.4,
+          "Speed": 10,
+
+          "Precision": 6,
+          "Defense": 5,
+          "AreaOfEffect": 3,
+
+          "CritChance": 0.15,
+          "CritPower": 8,
+          "CanBeLostOnDeath": true,
+
+          "Texture": "Mods/LoganDoidao.TranscendentalKnife/tk-lv10"
+        }
+      }
     },
-    //Exemplo de como modificar receitas de crafting
+
     {
       "Action": "EditData",
       "Target": "Data/CraftingRecipes",
+
       "Entries": {
-            "Wood Fence": "388 2/Field/322 10/false/default/",
-            "Stone Fence": "390 2/Field/323 10/false/Farming 2/",
-            "Iron Fence": "335 1/Field/324 10/false/Farming 4/",
-            "Hardwood Fence": "709 1/Field/298 10/false/Farming 6/"
-               }
+
+        "knife.1.name": "Wood 10 Fiber 5 Sap 2 /Field/tk-lv_1/false/Mining 1/",
+
+        "knife.2.name": "tk-lv_1 1 Hardwood 10 Fiber 10 OakResin 1 /Field/tk-lv_2/false/Mining 2/",
+
+        "knife.3.name": "tk-lv_2 1 Stone 20 Moss 5 Sap 4 /Field/tk-lv_3/false/Mining 3/",
+   
+        "knife.4.name": "tk-lv_3 1 RefinedQuartz 10 PineTar 1 SolarEssence 1 /Field/tk-lv_4/false/Mining 4/",
+
+        "knife.5.name": "tk-lv_4 1 CopperBar 5 Hardwood 1 Coal 5 Wool 1 SolarEssence 1 /Field/tk-lv_5/false/Mining 5/",
+
+        "knife.6.name": "tk-lv_5 1 IronBar 5 Hardwood 1 Coal 10 Wool 1 SolarEssence 2 /Field/tk-lv_6/false/Mining 6/",
+
+        "knife.7.name": "tk-lv_6 1 GoldBar 5 Hardwood 1 Coal 15 Wool 1 SolarEssence 3 /Field/tk-lv_7/false/Mining 7/",
+
+        "knife.8.name": "tk-lv_7 1 IridiumBar 5 Hardwood 1 Coal 20 Wool 2 SolarEssence 5 BatWing 10 /Field/tk-lv_8/false/Mining 8/",
+
+        "knife.9.name": "tk-lv_8 1 Diamond 5 IridiumBar 5 Coal 25 Wool 3 SolarEssence 10 BatWing 10 /Field/tk-lv_9/false/Mining 9/",
+
+        "knife.10.name": "tk-lv_9 1 PrismaticShard 2 IridiumBar 5 Coal 30 Wool 5 SolarEssence 20 Holly 10 BatWing 10 /Field/tk-lv_10/false/Mining 10/"
+      }
     }
-        ]
-    }
+
+  ]
+}
