@@ -1,6 +1,33 @@
-//Portuguese Translation
-//pt.json
+//traducao do content para portugues
+
 {
-"config.EnableFeature.name": "INCERIR TEXTO TRADUZIDO AQUI",
-"config.EnableFeature.desc": "INCERIR TEXTO TRADUZIDO AQUI"
+  "knife.1.name": "Faca Transcendental (Madeira)",
+  "knife.1.desc": "Alguns pedacos de madeira unidos no formato de uma faca.",
+  
+  "knife.2.name": "Faca Transcendental (Madeira de Lei)",
+  "knife.2.desc": "Uma faca com a madeira mais resistente, foi cuidadosamente montada com os melhores materias que se pode encontrar naturalmente.",
+  
+  "knife.3.name": "Faca Transcendental (Pedra)",
+  "knife.3.desc": "Uma faca de pedra rustica com um cabo improvisado de madeira, fibras, musgo e seiva juntam todas as partes.",
+  
+  "knife.4.name": "Faca Transcendental (Quartzo)",
+  "knife.4.desc": "A fusão de ferreiro e alquimista em uma faca, cortes precisos e um leve brilho para iluminar as trevas.",
+  
+  "knife.5.name": "Faca Transcendental (Cobre)",
+  "knife.5.desc": "Reforçada com cobre e misticamente melhorada.",
+  
+  "knife.6.name": "Faca Transcendental (Ferro)",
+  "knife.6.desc": "A dureza do ferro e o brilho intenso da lua cheia.",
+  
+  "knife.7.name": "Faca Transcendental (Ouro)",
+  "knife.7.desc": "Atravessa e corta como o brilho do sol.",
+  
+  "knife.8.name": "Faca Transcendental (Iridium)",
+  "knife.8.desc": "A maestrida do ferreiro e o poder mistico de um alquimista em perfeita harmonia.",
+  
+  "knife.9.name": "Faca Transcendental (Diamante)",
+  "knife.9.desc": "Afiada e indestrutivel como o Diamante.",
+  
+  "knife.10.name": "Faca Transcendental (Prismatica)",
+  "knife.10.desc": "O tesouro final a verdadeira faca Transcendental, tão rara quanto poderosa!"
 }

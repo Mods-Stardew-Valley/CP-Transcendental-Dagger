@@ -1,6 +1,33 @@
-//English Translation
-//default.json
+//traducao do content para ingles
+
 {
-"config.EnableFeature.name": "INCERIR TEXTO TRADUZIDO AQUI",
-"config.EnableFeature.desc": "INCERIR TEXTO TRADUZIDO AQUI"
+  "knife.1.name": "Transcendental Knife (Wood)",
+  "knife.1.desc": "A few pieces of wood joined together in the shape of a knife.",
+  
+  "knife.2.name": "Transcendental Knife (Hardwood)",
+  "knife.2.desc": "A knife made from stronger wood, carefully assembled with the finest materials naturally available.",
+  
+  "knife.3.name": "Transcendental Knife (Stone)",
+  "knife.3.desc": "A rustic stone knife with an improvised wooden handle. Fibers, moss, and sap hold all the parts together.",
+  
+  "knife.4.name": "Transcendental Knife (Quartz)",
+  "knife.4.desc": "The fusion of a blacksmith and an alchemist within a single knife. Precise cuts and a faint glow illuminate the darkness.",
+  
+  "knife.5.name": "Transcendental Knife (Copper)",
+  "knife.5.desc": "Reinforced with copper and mystically enhanced.",
+  
+  "knife.6.name": "Transcendental Knife (Iron)",
+  "knife.6.desc": "The hardness of iron and the intense glow of the full moon.",
+  
+  "knife.7.name": "Transcendental Knife (Gold)",
+  "knife.7.desc": "Pierces and cuts like the radiance of the sun.",
+  
+  "knife.8.name": "Transcendental Knife (Iridium)",
+  "knife.8.desc": "The mastery of a blacksmith and the mystical power of an alchemist in perfect harmony.",
+  
+  "knife.9.name": "Transcendental Knife (Diamond)",
+  "knife.9.desc": "Sharp and indestructible like diamond.",
+  
+  "knife.10.name": "Transcendental Knife (Prismatic)",
+  "knife.10.desc": "The ultimate treasure, the true Transcendental Knife, as rare as it is powerful!"
 }

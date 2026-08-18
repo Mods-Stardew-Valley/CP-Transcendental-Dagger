@@ -1,7 +1,7 @@
 {
-   "Name": "[CP] Trancendental Dagger",
+   "Name": "Trancendental Dagger",
    "Author": "LoganDoidao",
-   "Version": "0.0.0",
+   "Version": "0.1.0",
    "MinimumApiVersion": "4.1.0", 
    "Description": "Daggers that evolve in power.",
    "UniqueID": "LoganDoidao.TrancendentalDagger",
