@@ -14,9 +14,15 @@ Todas as mudanças importantes deste projeto serão documentadas neste arquivo.
 
 Adicionado breve descrição e roadmap para servir como guia de desenvolvimento do projeto
 
+- Update README.md
+
+- Merge branch 'main' of https://github.com/Mods-Stardew-Valley/CP-Transcendental-Dagger
+
 
 ### 📚 Documentação
 
+
+- atualiza CHANGELOG.md [skip ci]
 
 - atualiza CHANGELOG.md [skip ci]
 
